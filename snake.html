@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+		#restartBtn {
+			display: none;
+		}
+		#scoreDisplay {
+			font-size: 18;
+			font-weight: bold;
+		}
+		#highScoreDisplay {
+			font-size: 18;
+			font-weight: bold;
+		}
+    </style>
+</head>
+<body>
+    <canvas id="board"></canvas>
+	<button id="restartBtn" onclick="restartGame()">Restart</button>
+	<div id="scoreDisplay">Score: 0</div>
+	<div id="highScoreDisplay">High Score: 0</div>
+    <script src="snake.js"></script>
+</body>
+</html>
